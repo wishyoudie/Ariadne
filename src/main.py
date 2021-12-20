@@ -1,7 +1,8 @@
 import telebot
 from helpers import *
+from token import token
 
-ariadne = telebot.TeleBot(config['token'])
+ariadne = telebot.TeleBot(token)
 
 
 @ariadne.message_handler(commands=['start'])

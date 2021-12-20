@@ -1,9 +1,3 @@
-# Configuration settings
-config = {
-    'name': 'Ariadne',
-    'token': '5037797447:AAGteidGVFRAyNyjR-oLrDYtb2cErEtRgE4'
-}
-
 # Up-to-date texts
 supported_texts = {
     'hello': 'Hi there :)',
