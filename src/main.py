@@ -1,3 +1,5 @@
+### Ariadne entry point ###
+
 import telebot
 from helpers import *
 from private import token
@@ -21,3 +23,5 @@ def get_text(message):
 
 
 ariadne.polling(none_stop=True, interval=0)
+
+### End of 'main.py' file ###

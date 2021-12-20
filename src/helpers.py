@@ -1,3 +1,5 @@
+### File with additional functions and constants Ariadne is using ###
+
 # Up-to-date texts
 supported_texts = {
     'hello': 'Hi there :)',
@@ -13,7 +15,6 @@ def getDictionaryValues(dic):
     res = []
     for cm in dic:
         res.append(str(cm))
+    return str(res)[1:len(str(res)) - 1]
 
-    s = str(res)
-    l = len(s)
-    return s[1:l - 1]
+### End of 'helpers.py' file ###
