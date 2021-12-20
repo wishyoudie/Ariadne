@@ -1,6 +1,6 @@
 import telebot
 from helpers import *
-from token import token
+from private import token
 
 ariadne = telebot.TeleBot(token)
 
